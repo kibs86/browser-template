@@ -8,7 +8,7 @@ module.exports = {
     entry: {
       application: './index.js',
       specs: './spec/_all.js',
-      vendor: ['jquery', 'bootstrap-sass'],
+      vendor: ['jquery', 'materialize-css'],
     },
 
     output: {
@@ -72,6 +72,7 @@ module.exports = {
     resolve: {
       alias: {
         handlebars: 'handlebars/dist/handlebars.js',
+        'jquery': path.resolve(__dirname, '../node_modules/jquery/dist/jquery.js'),
       },
     },
     stats: {
