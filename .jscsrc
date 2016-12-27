@@ -1,5 +1,9 @@
 {
   "preset": "airbnb",
+  "excludeFiles": [
+  "assets/scripts/materialize/**",
+  "node_modules/**"
+  ],
   "disallowMultipleVarDecl": "exceptUndefined",
   "disallowSpaceAfterObjectKeys": {
     "allExcept": ["method"]
